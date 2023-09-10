@@ -1,0 +1,52 @@
+
+.home {
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-end; /* Align the table to the right */
+  text-align: left;
+}
+
+.employeeTable {
+  width: 85%;
+  border-collapse: collapse; /* Add spacing between table rows */
+}
+
+
+.employeeTable th {
+    padding: 10px;
+}
+
+.employeeTable thead {
+    background: rgba(251, 248, 245, 1);
+}
+
+.employeeTable td {
+  padding: 15px; /* Add padding to table cells */
+  border-bottom: 1px solid rgb(212, 212, 212); /* Add borders to table cells for better separation */
+  font-weight: 600;
+}
+
+.competens {
+    font-size: 12px;
+    color: rgba(166, 166, 166, 1);
+    font-weight: 500;
+}
+
+#price {
+    width: 5%;
+}
+
+#title {
+    width: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+{
+    "employees": [
+      {
+        "developer": {
+          "availability": 100,
+          "category": "Frontend",
+          "experienceAmount": 8,
+          "id": "1bfdf",
+          "competens": "Node.js, Javascript,React.js, Angular, CSS",
+          "office": {
+            "city": "Stockholm"
+          },
+          "price": 1250,
+          "title": "Frontend Developer"
+        }
+      },
+      {
+        "developer": {
+          "availability": 25,
+          "category": "Devops",
+          "experienceAmount": 12,
+          "id": "2ceab",
+          "competens": ".NET, PHYTON,REST API, MONGO DB",
+          "office": {
+            "city": "Malmö"
+          },
+          "price": 1450,
+          "title": "Systemarkitekt"
+        }
+      },
+      {
+        "developer": {
+          "availability": 55,
+          "category": "Frontend",
+          "experienceAmount": 4,
+          "id": "3etyp",
+          "competens": "Node.js, Javascript,React.js, Angular, CSS",
+          "office": {
+            "city": "Göteborg"
+          },
+          "price": 1000,
+          "title": "Frontend Developer"
+        }
+      },
+      {
+        "developer": {
+          "availability": 45,
+          "category": "Backend",
+          "experienceAmount": 6,
+          "id": "4aaea",
+          "competens": ".NET, PHYTON,REST API, MONGO DB, mySQL",
+          "office": {
+            "city": "Stockholm"
+          },
+          "price": 1295,
+          "title": "Backend Developer"
+        }
+      },
+      {
+        "developer": {
+          "availability": 50,
+          "category": "Backend",
+          "experienceAmount": 7,
+          "id": "5fcad",
+          "competens": ".NET, PHYTON,REST API, MONGO DB, mySQL",
+          "office": {
+            "city": "Stockholm"
+          },
+          "price": 1395,
+          "title": "Backend Developer"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,91 @@
+.header {
+    background: rgba(249, 243, 238, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 85%;
+    height: 100px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+
+.left {
+    margin-left: 15px;
+}
+
+.right {
+    margin-right: 15px;
+}
+
+
+.title {
+   font-size: 24px;
+   font-weight: 400;
+}
+
+#search {
+    height: 35px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 160px;
+    text-align: start;
+    font-weight: 600;
+    font-size: 10px;
+  
+}
+
+#book {
+    margin-top: 30px;
+}
+
+
+/* Left Bar styling */
+
+.selectorBar {
+    position: absolute;
+    width: 15%;
+    height: 100vh;
+    background: rgba(240, 231, 221, 1);
+    top: 0;
+    left: 0;
+}
+
+.selectorContainer {
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 142px;
+  }
+
+  .select {
+    height: 100px;
+    width: 80%;
+    padding: 20px 0 20px 20px;
+    color: black;
+  }
+
+  .select:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.devInfo {
+    font-size: 10px;
+    font-weight: 600;
+    color: rgba(140, 140, 140, 1);
+}
+
+
+
+
+
