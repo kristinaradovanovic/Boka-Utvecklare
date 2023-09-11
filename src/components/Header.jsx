@@ -1,15 +1,18 @@
 //ALLA IMPORT ----------------------------------------------------------------
 
 import "./Header.css";
-import {Outlet, Link} from "react-router-dom";
+import {Outlet, Link, useLocation} from "react-router-dom";
 
 
 //Header function -------------------------------------------------------------
 export const Header = ({ searchInput, handleSearchChange }) =>{
 
+    const location = useLocation();
+    const isBookPage = location.pathname === '/book';
     return(
         <>
-        <div className="header">
+        {!isBookPage && (
+            <div className="header">
             <div className="headerContainer">
 
             
@@ -26,14 +29,16 @@ export const Header = ({ searchInput, handleSearchChange }) =>{
 
             
                 <div className="right">
-                    <button id="book" className="btn"><strong>BOKA</strong></button>
+                    <button id="book" className="btn"><strong><Link to="/book">BOKA</Link></strong></button>
                 </div>
 
             </div>
         </div>
+        )}
 
-
-        <div className="selectorBar">
+    
+        {!isBookPage && (
+            <div className="selectorBar">
             <div className="selectorContainer">
                 <Link to="/category/all" className="select"> 
                 <div id="select1" >
@@ -64,6 +69,7 @@ export const Header = ({ searchInput, handleSearchChange }) =>{
                 </Link>
             </div>
         </div>
+        )}
 
         <Outlet searchInput={searchInput} /> 
 

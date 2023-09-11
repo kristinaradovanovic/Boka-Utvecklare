@@ -19,7 +19,6 @@ export const Home = ({ searchInput }) => {
         getData();
     }, []);
 
-
 //FILTRERING AV DATA BEROENDE PÅ SIDE-BAR/SEARCH-BAR INPUT------------------------------------------------------
 
         //FILTER MED SIDE-BAR

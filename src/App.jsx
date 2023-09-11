@@ -12,6 +12,7 @@ import { useState } from "react";
 
 import { Header } from './components/Header';
 import { Home } from './components/Home';
+import { Boka } from "./components/Boka";
 
 
 //APP.JS-----------------------------------------------------
@@ -32,8 +33,8 @@ const [searchInput, setSearchInput] = useState("");
         searchInput={searchInput} handleSearchChange={handleSearchChange}
         />}> 
         <Route path="category/:category" element={<Home  searchInput={searchInput}/>} />
+        <Route path="book" element={<Boka />} />
 
-     
       </Route>
     )
   );
